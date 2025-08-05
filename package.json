@@ -1,0 +1,17 @@
+{
+  "name": "lastminprep-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "author": "shivam",
+  "license": "ISC",
+  "dependencies": {
+    "@mistralai/mistralai": "^1.7.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
+}
